@@ -1,0 +1,77 @@
+.back{background-image: url(../img/slid.jpg);background-repeat: no-repeat;background-size: 100% 100%;height: 845px;}
+.badge:hover{transform: scale(1.1);background-color: #e1e1e1;color: #000;}
+.badge{background-color: #fff;color: #000;}
+/*header section*/
+.header .navbar-default{background-color: #28bdbe;border: none;}
+.header .navbar{margin: 0;}
+.header .nav li{padding-right: 25px;}
+.header .nav{padding: 32px 11px 0 0;}
+.logb button{border-radius: 50px;background-color: #9be068;color: #fff;border: none;}
+.nav>li>a{padding: 0px 15px;}
+.img-circle{width: 80px;height: 80px;margin-top: -20px;}
+ /*sidebar*/
+ .sidebar{background-color: #62d8a8;min-height: 619px;}
+ .dash{background-color: #fff;color: #4e2273;margin-top: 10px; border-radius: 50px;transition: transform 1s;overflow: hidden;}
+ .dash h2{font-size: 24px;margin-top: 15px;}
+ .dash:hover{transform: scale(1.1);box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);background-color: #e1e1e1;color: #000;}
+ /*main section*/
+ .main{min-height: 595px;}
+ .caption{background-color: #f7ced7;color: #656263;}
+ .new .thumbnail{width: 130px;height: 130px;}
+ .new a{color: #000;}
+ .fb{background: linear-gradient(to right bottom, #a6b3cb,#3f5c99,#697b9e);}
+ .insta{background: linear-gradient(to right bottom, #ef9bbe,#ee8dad,#ed2598);}
+ .google{background: linear-gradient(to right bottom, #f19ea1,#fb868a,#ee2129);}
+ .twit{background: linear-gradient(to right bottom, #c7deef,#a9d5f6,#57adee);}
+ .link{background: linear-gradient(to right bottom, #8cb8d8,#6ea1c5,#077eb7);}
+ .anch a{color: #fff; font-size: 12px;}
+
+  /*footer section*/
+ .footer{background-color: #28bdbe;padding-top: 10px;padding-bottom: 10px;}
+ .footer h4{color: #fff;font-size: 1.2vw;}
+/*image section*/
+
+.img{background-color: #CCCCCC;border-radius: 5px;margin-top: 30px;margin-left: 20px;}
+.imgform{margin-top: 50px;}
+.imgform input{border-radius: 50px;margin-left: 10px;}
+.imgform label{font-style: italic;}
+.imgform h4{margin-left: 280px;font-size: 15px;font-style: italic;}
+.img button{border-radius: 50px;background-color: #9BE068;color: #fff;padding: 10px 20px;margin-right: 20px;}
+.imgform1{margin-left: 130px; margin-top: 50px;}
+
+/*imgage section 1*/
+.img1{margin-top: 20px;overflow-y: scroll;height: 470px;}
+button.close{padding: 0px;}
+.hovimg .thumbnail{padding: 0px;border: none;}
+.cross{position: relative;top: 36px;right: 16px;}
+/*feedback */
+.headfeed{background-color: #B6B6B6;}
+.feedhead{background-color: #E4F5D1;}
+.table{margin-top: 20px;}
+
+/*admin registration*/
+.background{background-image: url(../img/beach1.jpg);background-repeat: no-repeat;background-size: 100% 100%;height: 150vh;}
+.contact form{background-color: rgba(0,0,0,0.6);padding: 40px;border-radius: 0px 100px;margin-top: 20px;width: 100%;border: 2px solid white;}
+#name{border: none;border-bottom: 2px solid white;outline: none;background-color: transparent;color: white;padding: 5px;}
+.glyphicon{color: white;font-size: 20px;}
+.cont{margin-top: 200px;}
+.contact a{color: white;text-decoration: none;}
+.contact a:hover{color: #85C1E9;font-style: italic;}
+#butt1{float: right;background-color: #F7DC6F;border: none;color: white;text-transform: uppercase;}
+#butt1:hover{background-color: #F39C12;transform: scale(1.1);}
+/*admin login*/
+.background1{background-image: url(../img/stone.jpg);background-repeat: no-repeat;background-size: 100% 100%;height: 100vh;}
+.contact1{margin: 0 auto;background-color: black;margin-top: 50px;padding-bottom: 10px;}
+.contact1 img{position: absolute;left: 40%;top: 5%;}
+#name2{width: 80%;text-align: center;margin-left: 35px;border: none;border-bottom: 2px solid white;outline: none;background-color: transparent;color: white;padding: 5px;}
+#label{color: white;margin-left: 35px;}
+#butt2{background-color: #C0392B;width: 80%;border: none;margin-left: 35px;border-radius: 50px;color: white;font-size:20px;margin-bottom: 20px; }
+#butt2:hover{background-color: #AED6F1;transform: scale(1.1);}
+.contact1 a{margin-left: 10%; color: white;line-height: 27px;text-decoration: none;font-size: 12px;}
+#a1:hover{color: #76D7C4;}
+#a2:hover{color: #AED6F1;}
+.change::placeholder {color: #D6EAF8;opacity: 0.7;}
+@media(max-width: 597px)
+{
+	.contact1 img{position: absolute;left: 40%;top: -5%;}
+}
